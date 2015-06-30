@@ -1,0 +1,17 @@
+{
+	"src": "js/src/",
+	"debug": false,
+	"out": "js/dist/",
+	"name": "fft",
+	"code": {
+		"main": [
+			"js",
+			"dist",
+			"fft.js"
+		],
+		"test": [
+			"test",
+			"js"
+		]
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"devDependencies": {
+		"aureooms-node-package": "^4.2.3"
+	},
+	"license": "AGPL-3.0",
+	"main": "js/dist/fft.js",
+	"homepage": "http://aureooms.github.io/js-fft/",
+	"author": "aureooms",
+	"spm": {
+		"main": "js/dist/fft.js"
+	},
+	"repository": {
+		"url": "https://github.com/aureooms/js-fft.git",
+		"type": "git"
+	},
+	"description": "Fast Fourier Transform code bricks for JavaScript",
+	"dependencies": {},
+	"name": "aureooms-js-fft",
+	"bugs": {
+		"url": "https://github.com/aureooms/js-fft/issues"
+	},
+	"keywords": [
+		"Fast Fourier Transform",
+		"Fourier",
+		"bricks",
+		"ender",
+		"fast",
+		"fft",
+		"javascript",
+		"js",
+		"transform"
+	],
+	"scripts": {
+		"build": "./node_modules/.bin/aureooms-node-package-build",
+		"doc": "./node_modules/.bin/groc",
+		"test": "./node_modules/.bin/aureooms-node-package-test"
+	},
+	"version": "0.0.0"
+}

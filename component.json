@@ -1,0 +1,11 @@
+{
+	"scripts": [
+		"js/dist/fft.js"
+	],
+	"description": "Fast Fourier Transform code bricks for JavaScript",
+	"name": "aureooms-js-fft",
+	"license": "AGPL-3.0",
+	"repo": "aureooms/js-fft",
+	"main": "js/dist/fft.js",
+	"version": "0.0.0"
+}
