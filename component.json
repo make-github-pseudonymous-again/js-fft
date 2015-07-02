@@ -7,5 +7,5 @@
 	"license": "AGPL-3.0",
 	"repo": "aureooms/js-fft",
 	"main": "js/dist/fft.js",
-	"version": "1.0.0"
+	"version": "1.0.1"
 }

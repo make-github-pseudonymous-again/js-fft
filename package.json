@@ -40,5 +40,5 @@
 		"doc": "./node_modules/.bin/groc",
 		"test": "./node_modules/.bin/aureooms-node-package-test"
 	},
-	"version": "1.0.0"
+	"version": "1.0.1"
 }
