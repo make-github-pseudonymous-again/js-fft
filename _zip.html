@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head><title>_zip</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="_zip"><meta name="groc-project-path" content="js/src/_zip.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-fft"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-fft/blob/master/js/src/_zip.js">js/src/_zip.js</a></div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="hljs-keyword">const</span> _zip = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> $1 , add , sub , mul , imul , root2n </span>) </span>{
+
+	<span class="hljs-keyword">const</span> zip = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> l , u , ui , um , v , vi , vm </span>) </span>{
+
+		<span class="hljs-keyword">const</span> z = root2n( l ) ;
+
+		<span class="hljs-keyword">let</span> w = $<span class="hljs-number">1</span>( ) ;
+
+		<span class="hljs-keyword">const</span> _vm = vm ;
+
+		<span class="hljs-keyword">while</span> ( vi &lt; _vm ) {
+
+			v[vi] = add( u[ui] , mul( w , u[um] ) ) ;
+			v[vm] = sub( u[ui] , mul( w , u[um] ) ) ;
+
+			w = imul( w , z ) ;
+
+			++um ; ++vm ; ++ui ; ++vi ;
+
+		}
+
+	} ;
+
+	<span class="hljs-keyword">return</span> zip ;
+
+} ;
+
+exports._zip = _zip ;</div></div></div></div></body></html>
