@@ -1,11 +1,11 @@
 
-const _zip = function ( one , add , sub , mul , imul , root ) {
+const _zip = function ( $1 , add , sub , mul , imul , root2n ) {
 
 	const zip = function ( l , u , ui , um , v , vi , vm ) {
 
-		const z = root( l ) ;
+		const z = root2n( l ) ;
 
-		let w = one( ) ;
+		let w = $1( ) ;
 
 		const _vm = vm ;
 

@@ -13,5 +13,6 @@
 			"test",
 			"js"
 		]
-	}
+	},
+	"babel" : true
 }

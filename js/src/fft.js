@@ -1,7 +1,7 @@
 
-const fft = function ( one , add , sub , mul , imul , root ) {
+const fft = function ( $1 , add , sub , mul , imul , root2n ) {
 
-	return _fft( unzip , _zip( one , add , sub , mul , imul , root ) ) ;
+	return _fft( unzip , _zip( $1 , add , sub , mul , imul , root2n ) ) ;
 
 } ;
 
