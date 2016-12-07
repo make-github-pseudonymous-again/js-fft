@@ -1,0 +1,678 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "_fft",
+            "range": [
+              7,
+              11
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 7
+              },
+              "end": {
+                "line": 1,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            7,
+            11
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 7
+            },
+            "end": {
+              "line": 1,
+              "column": 11
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./_fft",
+        "raw": "'./_fft'",
+        "range": [
+          17,
+          25
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 17
+          },
+          "end": {
+            "line": 1,
+            "column": 25
+          }
+        }
+      },
+      "range": [
+        0,
+        27
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 27
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "_izip",
+            "range": [
+              35,
+              40
+            ],
+            "loc": {
+              "start": {
+                "line": 2,
+                "column": 7
+              },
+              "end": {
+                "line": 2,
+                "column": 12
+              }
+            }
+          },
+          "range": [
+            35,
+            40
+          ],
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 7
+            },
+            "end": {
+              "line": 2,
+              "column": 12
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./_izip",
+        "raw": "'./_izip'",
+        "range": [
+          46,
+          55
+        ],
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 18
+          },
+          "end": {
+            "line": 2,
+            "column": 27
+          }
+        }
+      },
+      "range": [
+        28,
+        57
+      ],
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "unzip",
+            "range": [
+              65,
+              70
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 7
+              },
+              "end": {
+                "line": 3,
+                "column": 12
+              }
+            }
+          },
+          "range": [
+            65,
+            70
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 7
+            },
+            "end": {
+              "line": 3,
+              "column": 12
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./unzip",
+        "raw": "'./unzip'",
+        "range": [
+          76,
+          85
+        ],
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 18
+          },
+          "end": {
+            "line": 3,
+            "column": 27
+          }
+        }
+      },
+      "range": [
+        58,
+        87
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "ifft",
+          "range": [
+            113,
+            117
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 24
+            },
+            "end": {
+              "line": 5,
+              "column": 28
+            }
+          }
+        },
+        "params": [
+          {
+            "type": "Identifier",
+            "name": "$1",
+            "range": [
+              120,
+              122
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 31
+              },
+              "end": {
+                "line": 5,
+                "column": 33
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "add",
+            "range": [
+              125,
+              128
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 36
+              },
+              "end": {
+                "line": 5,
+                "column": 39
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "sub",
+            "range": [
+              131,
+              134
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 42
+              },
+              "end": {
+                "line": 5,
+                "column": 45
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "mul",
+            "range": [
+              137,
+              140
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 48
+              },
+              "end": {
+                "line": 5,
+                "column": 51
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "imul",
+            "range": [
+              143,
+              147
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 54
+              },
+              "end": {
+                "line": 5,
+                "column": 58
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "div2",
+            "range": [
+              150,
+              154
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 61
+              },
+              "end": {
+                "line": 5,
+                "column": 65
+              }
+            }
+          },
+          {
+            "type": "Identifier",
+            "name": "iroot2n",
+            "range": [
+              157,
+              164
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 68
+              },
+              "end": {
+                "line": 5,
+                "column": 75
+              }
+            }
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "argument": {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "Identifier",
+                  "name": "_fft",
+                  "range": [
+                    178,
+                    182
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 7,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 12
+                    }
+                  }
+                },
+                "arguments": [
+                  {
+                    "type": "Identifier",
+                    "name": "unzip",
+                    "range": [
+                      184,
+                      189
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 7,
+                        "column": 14
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 19
+                      }
+                    }
+                  },
+                  {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "_izip",
+                      "range": [
+                        192,
+                        197
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 7,
+                          "column": 22
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 27
+                        }
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "$1",
+                        "range": [
+                          199,
+                          201
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 29
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 31
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "add",
+                        "range": [
+                          204,
+                          207
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 34
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 37
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "sub",
+                        "range": [
+                          210,
+                          213
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 40
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 43
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "mul",
+                        "range": [
+                          216,
+                          219
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 46
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 49
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "imul",
+                        "range": [
+                          222,
+                          226
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 52
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 56
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "div2",
+                        "range": [
+                          229,
+                          233
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 59
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 63
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "iroot2n",
+                        "range": [
+                          236,
+                          243
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 7,
+                            "column": 66
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 73
+                          }
+                        }
+                      }
+                    ],
+                    "range": [
+                      192,
+                      245
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 7,
+                        "column": 22
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 75
+                      }
+                    }
+                  }
+                ],
+                "range": [
+                  178,
+                  247
+                ],
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 77
+                  }
+                }
+              },
+              "range": [
+                171,
+                249
+              ],
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 1
+                },
+                "end": {
+                  "line": 7,
+                  "column": 79
+                }
+              }
+            }
+          ],
+          "range": [
+            167,
+            252
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 78
+            },
+            "end": {
+              "line": 9,
+              "column": 1
+            }
+          }
+        },
+        "generator": false,
+        "expression": false,
+        "range": [
+          104,
+          252
+        ],
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 15
+          },
+          "end": {
+            "line": 9,
+            "column": 1
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        89,
+        252
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    252
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 9,
+      "column": 1
+    }
+  },
+  "comments": []
+}
