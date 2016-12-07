@@ -1,5 +1,4 @@
-
-const _izip = function ( $1 , add , sub , mul , imul , div2 , root2n ) {
+export default function _izip ( $1 , add , sub , mul , imul , div2 , root2n ) {
 
 	const izip = function ( l , u , ui , um , v , vi , vm ) {
 
@@ -24,6 +23,4 @@ const _izip = function ( $1 , add , sub , mul , imul , div2 , root2n ) {
 
 	return izip ;
 
-} ;
-
-exports._izip = _izip ;
+}

@@ -1,44 +1,65 @@
 {
-	"devDependencies": {
-		"aureooms-js-algo": "^3.0.4",
-		"aureooms-js-array": "^3.0.0",
-		"aureooms-js-complex": "^1.0.1",
-		"aureooms-js-number": "^3.0.0",
-		"aureooms-js-random": "^1.0.2",
-		"aureooms-node-package": "^6.0.1"
-	},
-	"license": "AGPL-3.0",
-	"main": "js/dist/fft.js",
-	"homepage": "http://aureooms.github.io/js-fft/",
-	"author": "aureooms",
-	"spm": {
-		"main": "js/dist/fft.js"
-	},
-	"repository": {
-		"url": "https://github.com/aureooms/js-fft.git",
-		"type": "git"
-	},
-	"description": "Fast Fourier Transform code bricks for JavaScript",
-	"dependencies": {},
-	"name": "aureooms-js-fft",
-	"bugs": {
-		"url": "https://github.com/aureooms/js-fft/issues"
-	},
-	"keywords": [
-		"Fast Fourier Transform",
-		"Fourier",
-		"bricks",
-		"ender",
-		"fast",
-		"fft",
-		"javascript",
-		"js",
-		"transform"
-	],
-	"scripts": {
-		"build": "./node_modules/.bin/aureooms-node-package-build",
-		"doc": "./node_modules/.bin/groc",
-		"test": "./node_modules/.bin/aureooms-node-package-test"
-	},
-	"version": "1.0.1"
+  "name": "aureooms-js-fft",
+  "description": "Fast Fourier Transform algorithm for JavaScript",
+  "version": "1.0.1",
+  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "ava": {
+    "require": [
+      "babel-polyfill",
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/aureooms/js-fft/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "aureooms-js-algo": "^3.0.5",
+    "aureooms-js-array": "^3.1.0",
+    "aureooms-js-complex": "^1.2.0",
+    "aureooms-js-number": "^3.0.0",
+    "aureooms-js-random": "^1.0.2",
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "codeclimate-test-reporter": "^0.4.0",
+    "coveralls": "^2.11.15",
+    "esdoc": "^0.4.8",
+    "nyc": "^10.0.0"
+  },
+  "homepage": "https://aureooms.github.io/js-fft",
+  "keywords": [
+    "Fast Fourier Transform",
+    "Fourier",
+    "fast",
+    "fft",
+    "ifft",
+    "inverse",
+    "javascript",
+    "js",
+    "transform"
+  ],
+  "license": "AGPL-3.0",
+  "main": "lib/main.js",
+  "repository": {
+    "url": "https://github.com/aureooms/js-fft.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "prepublish": "npm run build",
+    "test": "ava ./test/src"
+  }
 }

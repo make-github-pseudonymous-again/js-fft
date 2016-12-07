@@ -1,6 +1,7 @@
+import fft from './fft' ;
+import ifft from './ifft' ;
 
-
-const compile = function ( {
+export default function compile ( {
 
 	$1 ,
 	add , sub , mul , imul ,
@@ -11,16 +12,10 @@ const compile = function ( {
 
 	return {
 
-
 		fft : fft( $1 , add , sub , mul , imul , root2n ) ,
 
 		ifft : ifft( $1 , add , sub , mul , imul , div2 , iroot2n )
 
 	} ;
 
-} ;
-
-
-exports.compile = compile ;
-
-
+}

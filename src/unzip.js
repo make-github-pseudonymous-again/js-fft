@@ -1,7 +1,6 @@
-
 // uj - ui = 2 ( vm - vi )
 
-const unzip = function ( u , ui , uj , v , vi , vm ) {
+export default function unzip ( u , ui , uj , v , vi , vm ) {
 
 	while ( ui < uj ) {
 
@@ -15,6 +14,4 @@ const unzip = function ( u , ui , uj , v , vi , vm ) {
 
 	}
 
-} ;
-
-exports.unzip = unzip ;
+}

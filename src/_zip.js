@@ -1,5 +1,4 @@
-
-const _zip = function ( $1 , add , sub , mul , imul , root2n ) {
+export default function _zip ( $1 , add , sub , mul , imul , root2n ) {
 
 	const zip = function ( l , u , ui , um , v , vi , vm ) {
 
@@ -24,6 +23,4 @@ const _zip = function ( $1 , add , sub , mul , imul , root2n ) {
 
 	return zip ;
 
-} ;
-
-exports._zip = _zip ;
+}

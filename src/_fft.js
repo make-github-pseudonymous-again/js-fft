@@ -1,5 +1,4 @@
-
-const _fft = function ( unzip , zip ) {
+export default function _fft ( unzip , zip ) {
 
 	const fft = function ( l , m , u , ui , uj , v , vi , vj ) {
 
@@ -21,6 +20,4 @@ const _fft = function ( unzip , zip ) {
 
 	return fft ;
 
-} ;
-
-exports._fft = _fft ;
+}
