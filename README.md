@@ -1,7 +1,7 @@
 [js-fft](http://aureooms.github.io/js-fft)
 ==
 
-Fast Fourier Transform code bricks for JavaScript. Parent is
+Fast Fourier Transform algorithm for JavaScript. Parent is
 [aureooms/js-algo](https://github.com/aureooms/js-algo).
 
 ```js
