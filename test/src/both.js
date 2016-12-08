@@ -1,6 +1,6 @@
 import test from 'ava' ;
 
-import { __absepsilon__ } from 'aureooms-js-algo' ;
+import { __absepsilon__ } from 'aureooms-js-algorithms' ;
 const compare = __absepsilon__( 0.0001 ) ;
 
 import { alloc , copy } from 'aureooms-js-array' ;
