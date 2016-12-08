@@ -51,7 +51,7 @@
     "transform"
   ],
   "license": "AGPL-3.0",
-  "main": "lib/main.js",
+  "main": "lib/index.js",
   "repository": {
     "url": "https://github.com/aureooms/js-fft.git",
     "type": "git"
