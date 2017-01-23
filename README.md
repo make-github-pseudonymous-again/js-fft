@@ -1,11 +1,17 @@
-[js-fft](http://aureooms.github.io/js-fft)
+[@aureooms/js-fft](https://aureooms.github.io/js-fft)
 ==
 
-Fast Fourier Transform algorithm for JavaScript. Parent is
-[aureooms/js-algo](https://github.com/aureooms/js-algo).
+<img src="https://cdn.rawgit.com/aureooms/js-fft/master/media/sketch.svg" width="864">
+
+Fast Fourier Transform algorithm for JavaScript.
+See [docs](https://aureooms.github.io/js-fft).
+Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
 ```js
-fft( 3 , 4 , u , 0 , 8 , v , 0 , 8 ) ;
+fft( l , m , _u , 0 , n , u , 0 , n ) ;  // O(n log n)
+fft( l , m , _v , 0 , n , v , 0 , n ) ;  // O(n log n)
+convolution( u , 0 , n , v , 0 , n ) ;   // O(n)
+ifft( l , m , u , 0 , n , _u , 0 , n ) ; // O(n log n)
 ```
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-fft.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-fft/master/LICENSE)

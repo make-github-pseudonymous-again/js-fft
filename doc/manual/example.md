@@ -3,8 +3,8 @@
  * Initialization with complex numbers in double precision.
  */
 
-const number = require( "aureooms-js-number" ) ;
-const complex = require( "aureooms-js-complex" ) ;
+import * as number from "aureooms-js-number" ;
+import * as complex from "aureooms-js-complex" ;
 
 const kernel = complex.cartesian.kernel.compile( number , "i" ) ;
 const cartesian = complex.cartesian.array.compile( kernel ) ;
@@ -18,7 +18,7 @@ const $ = fft.compile( cartesian ) ;
  * ( little endian , double precision )
  */
 
-const array = require( "aureooms-js-array" ) ;
+import * as array from "aureooms-js-array" ;
 
 const l = Math.ceil( Math.log2( Math.max( u.length , v.length ) ) ) ;
 const m = Math.pow( 2 , l ) | 0 ;
