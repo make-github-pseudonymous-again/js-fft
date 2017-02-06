@@ -24,3 +24,7 @@ ifft( l , m , u , 0 , n , _u , 0 , n ) ; // O(n log n)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-fft.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-fft)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-fft.svg?style=flat)](https://github.com/aureooms/js-fft/issues)
 [![Documentation](https://aureooms.github.io/js-fft/badge.svg)](https://aureooms.github.io/js-fft/source.html)
+
+## Related
+
+  - [@aureooms/js-fft-integer](https://aureooms.github.io/js-fft-integer)
