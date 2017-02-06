@@ -27,4 +27,4 @@ ifft( l , m , u , 0 , n , _u , 0 , n ) ; // O(n log n)
 
 ## Related
 
-  - [@aureooms/js-fft-integer](https://aureooms.github.io/js-fft-integer)
+  - [@aureooms/js-fft-integer](https://github.com/aureooms/js-fft-integer)
