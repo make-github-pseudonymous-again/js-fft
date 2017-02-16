@@ -1,13 +1,13 @@
 import test from 'ava' ;
 
-import { __absepsilon__ } from 'aureooms-js-algorithms' ;
+import { __absepsilon__ } from '@aureooms/js-algorithms' ;
 const compare = __absepsilon__( 0.0001 ) ;
 
-import { alloc , copy } from 'aureooms-js-array' ;
-import { randfloat } from 'aureooms-js-random' ;
+import { alloc , copy } from '@aureooms/js-array' ;
+import { randfloat } from '@aureooms/js-random' ;
 
-import * as number from 'aureooms-js-number' ;
-import complex from 'aureooms-js-complex' ;
+import * as number from '@aureooms/js-number' ;
+import complex from '@aureooms/js-complex' ;
 const kernel = complex.cartesian.kernel.compile( number , "i" ) ;
 const cartesian = complex.cartesian.array.compile( kernel ) ;
 const _ = cartesian.complex ;
