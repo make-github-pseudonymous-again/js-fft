@@ -8,7 +8,7 @@ import 'babel-polyfill' ;
 
 Then
 ```js
-const fft = require( 'aureooms-js-fft' ) ;
+const fft = require( '@aureooms/js-fft' ) ;
 // or
-import fft from 'aureooms-js-fft' ;
+import fft from '@aureooms/js-fft' ;
 ```

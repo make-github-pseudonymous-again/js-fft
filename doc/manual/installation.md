@@ -4,10 +4,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:aureooms-js-fft
+jspm install npm:@aureooms/js-fft
 ```
 
 ### npm
 ```terminal
-npm install aureooms-js-fft --save
+npm install @aureooms/js-fft --save
 ```
