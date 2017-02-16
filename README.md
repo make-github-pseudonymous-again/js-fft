@@ -14,7 +14,7 @@ convolution( u , 0 , n , v , 0 , n ) ;   // O(n)
 ifft( l , m , u , 0 , n , _u , 0 , n ) ; // O(n log n)
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-fft.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-fft/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-fft.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-fft/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-fft.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-fft)
 [![Build Status](https://img.shields.io/travis/aureooms/js-fft.svg?style=flat)](https://travis-ci.org/aureooms/js-fft)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-fft.svg?style=flat)](https://coveralls.io/r/aureooms/js-fft)
