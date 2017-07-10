@@ -1,44 +1,44 @@
 window.esdocSearchIndex = [
   [
-    "aureooms-js-fft/src/_fft.js~_fft",
+    "@aureooms/js-fft/src/_fft.js~_fft",
     "function/index.html#static-function-_fft",
-    "<span>_fft</span> <span class=\"search-result-import-path\">aureooms-js-fft/src/_fft.js</span>",
+    "<span>_fft</span> <span class=\"search-result-import-path\">@aureooms/js-fft/src/_fft.js</span>",
     "function"
   ],
   [
-    "aureooms-js-fft/src/_izip.js~_izip",
+    "@aureooms/js-fft/src/_izip.js~_izip",
     "function/index.html#static-function-_izip",
-    "<span>_izip</span> <span class=\"search-result-import-path\">aureooms-js-fft/src/_izip.js</span>",
+    "<span>_izip</span> <span class=\"search-result-import-path\">@aureooms/js-fft/src/_izip.js</span>",
     "function"
   ],
   [
-    "aureooms-js-fft/src/_zip.js~_zip",
+    "@aureooms/js-fft/src/_zip.js~_zip",
     "function/index.html#static-function-_zip",
-    "<span>_zip</span> <span class=\"search-result-import-path\">aureooms-js-fft/src/_zip.js</span>",
+    "<span>_zip</span> <span class=\"search-result-import-path\">@aureooms/js-fft/src/_zip.js</span>",
     "function"
   ],
   [
-    "aureooms-js-fft/src/compile.js~compile",
+    "@aureooms/js-fft/src/compile.js~compile",
     "function/index.html#static-function-compile",
-    "<span>compile</span> <span class=\"search-result-import-path\">aureooms-js-fft/src/compile.js</span>",
+    "<span>compile</span> <span class=\"search-result-import-path\">@aureooms/js-fft/src/compile.js</span>",
     "function"
   ],
   [
-    "aureooms-js-fft/src/fft.js~fft",
+    "@aureooms/js-fft/src/fft.js~fft",
     "function/index.html#static-function-fft",
-    "<span>fft</span> <span class=\"search-result-import-path\">aureooms-js-fft/src/fft.js</span>",
+    "<span>fft</span> <span class=\"search-result-import-path\">@aureooms/js-fft/src/fft.js</span>",
     "function"
   ],
   [
-    "aureooms-js-fft/src/ifft.js~ifft",
+    "@aureooms/js-fft/src/ifft.js~ifft",
     "function/index.html#static-function-ifft",
-    "<span>ifft</span> <span class=\"search-result-import-path\">aureooms-js-fft/src/ifft.js</span>",
+    "<span>ifft</span> <span class=\"search-result-import-path\">@aureooms/js-fft/src/ifft.js</span>",
     "function"
   ],
   [
-    "aureooms-js-fft/src/unzip.js~unzip",
+    "@aureooms/js-fft/src/unzip.js~unzip",
     "function/index.html#static-function-unzip",
-    "<span>unzip</span> <span class=\"search-result-import-path\">aureooms-js-fft/src/unzip.js</span>",
+    "<span>unzip</span> <span class=\"search-result-import-path\">@aureooms/js-fft/src/unzip.js</span>",
     "function"
   ],
   [
