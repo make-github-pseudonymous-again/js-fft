@@ -29,14 +29,14 @@
     "@aureooms/js-complex": "^1.2.0",
     "@aureooms/js-number": "^3.0.0",
     "@aureooms/js-random": "^2.0.0",
-    "ava": "^0.19.0",
-    "babel-cli": "^6.18.0",
-    "babel-polyfill": "^6.16.0",
-    "babel-preset-latest": "^6.16.0",
-    "codeclimate-test-reporter": "^0.4.0",
-    "coveralls": "^2.11.15",
+    "ava": "^0.20.0",
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "codeclimate-test-reporter": "^0.5.0",
+    "coveralls": "^2.13.1",
     "esdoc": "^1.0.0-alpha.1",
-    "nyc": "^11.0.1"
+    "nyc": "^11.0.3"
   },
   "homepage": "https://aureooms.github.io/js-fft",
   "keywords": [
