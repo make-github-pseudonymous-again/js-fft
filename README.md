@@ -26,5 +26,7 @@ ifft( l , m , u , 0 , n , _u , 0 , n ) ; // O(n log n)
 [![Documentation](https://aureooms.github.io/js-fft/badge.svg)](https://aureooms.github.io/js-fft/source.html)
 
 ## Related
-
   - [@aureooms/js-fft-integer](https://github.com/aureooms/js-fft-integer)
+  
+## References
+  - [Some python code with good comments](https://github.com/aureooms-research/fft/blob/master/code/polynomials.py#L4)
