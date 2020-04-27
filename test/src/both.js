@@ -39,8 +39,8 @@ test( "both" , t => {
 
 	for ( var j = 0 ; j < n ; ++j ) {
 
-		t.deepEqual( compare( u[j][0] , w[j][0] ) , 0 , [ u[j][0] , w[j][0] ] ) ;
-		t.deepEqual( compare( u[j][1] , w[j][1] ) , 0 , [ u[j][1] , w[j][1] ] ) ;
+		t.deepEqual( compare( u[j][0] , w[j][0] ) , 0 , JSON.stringify([ u[j][0] , w[j][0] ]) ) ;
+		t.deepEqual( compare( u[j][1] , w[j][1] ) , 0 , JSON.stringify([ u[j][1] , w[j][1] ]) ) ;
 
 	}
 
