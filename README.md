@@ -1,9 +1,9 @@
 :butterfly: [@aureooms/js-fft](https://aureooms.github.io/js-fft)
 ==
 
-<center>
+<p align="center">
 <img src="https://cdn.rawgit.com/aureooms/js-fft/main/media/sketch.svg" width="500">
-</center>
+</p>
 
 Fast Fourier Transform algorithm for JavaScript.
 See [docs](https://aureooms.github.io/js-fft).
