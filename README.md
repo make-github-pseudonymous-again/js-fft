@@ -1,7 +1,9 @@
-[@aureooms/js-fft](https://aureooms.github.io/js-fft)
+:butterfly: [@aureooms/js-fft](https://aureooms.github.io/js-fft)
 ==
 
-<img src="https://cdn.rawgit.com/aureooms/js-fft/main/media/sketch.svg" width="864">
+<center>
+<img src="https://cdn.rawgit.com/aureooms/js-fft/main/media/sketch.svg" width="500">
+</center>
 
 Fast Fourier Transform algorithm for JavaScript.
 See [docs](https://aureooms.github.io/js-fft).
@@ -29,8 +31,8 @@ ifft( l , m , u , 0 , n , _u , 0 , n ) ; // O(n log n)
 [![Documentation](https://aureooms.github.io/js-fft/badge.svg)](https://aureooms.github.io/js-fft/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-fft)](https://bundlephobia.com/result?p=@aureooms/js-fft)
 
-## Related
+## :dancing_women: Related
   - [@aureooms/js-fft-integer](https://github.com/aureooms/js-fft-integer)
   
-## References
+## :scroll: References
   - [Some python code with good comments](https://github.com/aureooms-research/fft/blob/main/code/polynomials.py#L4)
