@@ -1,4 +1,4 @@
-:butterfly: [@aureooms/js-fft](https://aureooms.github.io/js-fft)
+:butterfly: [@aureooms/js-fft](https://make-github-pseudonymous-again.github.io/js-fft)
 ==
 
 <p align="center">
@@ -6,7 +6,7 @@
 </p>
 
 Fast Fourier Transform algorithm for JavaScript.
-See [docs](https://aureooms.github.io/js-fft).
+See [docs](https://make-github-pseudonymous-again.github.io/js-fft).
 Parent is [@aureooms/js-algorithms](https://github.com/aureooms/js-algorithms).
 
 ```js
@@ -28,7 +28,7 @@ ifft( l , m , u , 0 , n , _u , 0 , n ) ; // O(n log n)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-fft.svg)](https://codeclimate.com/github/aureooms/js-fft/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-fft/main.svg)](https://codecov.io/gh/aureooms/js-fft)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-fft.svg)](https://codeclimate.com/github/aureooms/js-fft/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-fft/badge.svg)](https://aureooms.github.io/js-fft/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-fft/badge.svg)](https://make-github-pseudonymous-again.github.io/js-fft/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-fft)](https://bundlephobia.com/result?p=@aureooms/js-fft)
 
 ## :dancing_women: Related
