@@ -73,7 +73,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-fft/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-fft/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -118,7 +118,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-fft.git",
+    "url": "https://github.com/make-github-pseudonymous-again/js-fft.git",
     "type": "git"
   },
   "scripts": {
